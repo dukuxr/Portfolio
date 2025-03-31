@@ -17,8 +17,4 @@ h2 {
     border: 1px solid #ddd; /* Subtle border around sections */
     transition: transform 0.2s; /* Smooth hover effect */
 }
-.section: hover {
-    transform: scale(1.02); /* Slight zoom on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
-}
 
