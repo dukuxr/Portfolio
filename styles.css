@@ -1,1 +1,24 @@
+/* styles.css */
+
+body {
+    background-color: #ecf0f1; /* Light gray background */
+    color: #333; /* Dark text for readability */
+}
+h1 {
+    font-size: 2.5em; /* Larger heading */
+    font-weight: bold;
+    color: #2c3e50; /* Dark blue heading */
+}
+h2 {
+    font-size: 1.5em;
+    color: #34495e; /* Slightly lighter blue */
+}
+.section {
+    border: 1px solid #ddd; /* Subtle border around sections */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+.section: hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
 
